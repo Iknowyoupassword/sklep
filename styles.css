@@ -1,0 +1,147 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #45a049;
+}
+
+.product h2 {
+    color: #333;
+}
+
+.product p {
+    color: #666;
+}
+
+.product h2, .product p {
+    margin: 10px 0;
+}
+
+/* Dodatkowy styl dla ostatniego artykułu */
+.product:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* Test
+/* Resetowanie domyślnych stylów dla przeglądarek */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styl dla całego body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styl dla nagłówka */
+header {
+    background-color: rgb(224, 245, 150), 255, 0);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styl dla nagłówka - logo */
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Styl dla nawigacji */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styl dla h1 */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Styl dla h1 na mniejszych ekranach */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+}

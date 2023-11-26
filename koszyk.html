@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twój Koszyk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .cart-total {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .checkout-btn {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .checkout-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Twój Koszyk</h1>
+    </header>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produkt</th>
+                    <th>Cena</th>
+                    <th>Ilość</th>
+                    <th>Suma</th>
+                </tr>
+            
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cart-total">Suma koszyka: </div>
+        <button class="checkout-btn">Przejdź do płatności</button>
+    </section>
+
+</body>
+</html>
